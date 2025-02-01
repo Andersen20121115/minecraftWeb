@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+}
+
+.Content { 
+    margin-top: 40px;
+    margin-left: 40%;
+    color:cornsilk;
+    text-align: center;
+    width:640px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+video{
+    border:6px solid white;
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+.Navbar{
+    background-color: cornsilk;
+    padding:5px;
+    border-radius: 5px;
+    width:100vw;
+    font-weight: bold;
+    display:flex;
+    gap:10px;
+    align-items: center;
+}
+
+img {
+    width: 40px; 
+}
+
+.Navbar button{
+    border:none;
+    background-color: cornsilk;
+    font-weight: bold;
+    font-size: 18px;;
+    padding:15px 20px;
+}
+
+.Navbar button:hover{
+    background-color: bisque;
+}
+
+.Navbar .Signbutton{
+    border-radius: 8px;
+    color:white;
+    background-color: black;
+    transition: background-color 0.3s ease, border-radius 0.3s ease;
+
+}
+
+.Navbar .Signbutton:hover{
+    border-radius: 32px;
+    background-color: rgb(7, 250, 7);
+}
+
+.Navbar .Signbutton:active{
+    border-radius: 32px;
+    background-color: rgb(7, 64, 250);
+}
